@@ -2,7 +2,7 @@
 Ridge regression, is the most commonly used method of regularization of ill-posed problems. In statistics, the method is known as Tikhonov regularization, named for Andrey Tikhonov.
 When the following problem is not well posed (either because of non-existence or non-uniqueness of x)
 
-    A\mathbf {x} =\mathbf {b} , 
+  $$  A\mathbf {x} =\mathbf {b}$$ , 
     
 then the standard approach (known as ordinary least squares) leads to an overdetermined (Over-fitted), or more often an underdetermined (under-fitted) system of equations. Most real-world phenomena operate as low-pass filters in the forward direction where A maps \mathbf {x} to \mathbf {b} . Therefore in solving the inverse-problem, the inverse mapping operates as a high-pass filter that has the undesirable tendency of amplifying noise (eigenvalues / singular values are largest in the reverse mapping where they were smallest in the forward mapping). In addition, ordinary least squares implicitly nullifies every element of the reconstructed version of \mathbf {x} that is in the null-space of A, rather than allowing for a model to be used as a prior for \mathbf {x} . Ordinary least squares seeks to minimize the sum of squared residuals, which can be compactly written as
 
