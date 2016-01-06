@@ -17,3 +17,5 @@ for some suitably chosen Tikhonov matrix, \Gamma . In many cases, this matrix is
     {\hat {x}}=(A^{T}A+\Gamma ^{T}\Gamma )^{-1}A^{T}\mathbf {b} 
 
 The effect of regularization may be varied via the scale of matrix \Gamma . For \Gamma =0 this reduces to the unregularized least squares solution provided that (ATA)−1 exists.
+
+ --Wikipedia
